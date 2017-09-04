@@ -1,0 +1,31 @@
+{
+  "name": "transform-languageserver",
+  "version": "0.0.1",
+  "description": "Transform Language Server",
+  "author": "Anton Kosiakov (https://twitter.com/akosyakov)",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "prepare": "npm run clean && npm run compile",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf lib"
+  },
+  "keywords": [
+    "transform",
+    "language-server"
+  ],
+  "dependencies": {
+    "transform-css-to-js": "^0.1.1",
+    "vscode-languageserver": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.5.2"
+  }
+}
