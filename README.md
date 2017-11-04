@@ -1,4 +1,6 @@
 # Transform Language Server
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/transform-it/transform-languageserver.svg)](https://greenkeeper.io/)
 The transform language server providing code transformations, like CSS to JS, JSON to TypeScript/Flow and so on.
 
 Transformations are based on [transform-it](https://github.com/transform-it/transform-www).
